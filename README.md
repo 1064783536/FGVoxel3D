@@ -4,7 +4,8 @@ Install mmdetection3d and make sure it reproduces the pointpillar algorithm corr
 # download the code.
 
 # Train
-python tools/train.py configs/pointpillars/pointpillars_hv_secfpn_8xb6-160e_kitti-3d-3class.py
+python tools/train.py configs/second/second_hv_secfpn_8xb6-80e_kitti-3d-3class_multivoxel.py
+
 
 # Test
-python tools/test.py configs/pointpillars/pointpillars_hv_secfpn_8xb6-160e_kitti-3d-3class.py
+python tools/test.py configs/second/second_hv_secfpn_8xb6-80e_kitti-3d-3class_multivoxel.py
