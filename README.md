@@ -8,4 +8,4 @@ python tools/train.py configs/second/second_hv_secfpn_8xb6-80e_kitti-3d-3class_m
 
 
 # Test
-python tools/test.py configs/second/second_hv_secfpn_8xb6-80e_kitti-3d-3class_multivoxel.py
+python tools/test.py pretrain_model/second_hv_secfpn_8xb6-80e_kitti-3d-3class_multivoxel.py pretrain_model/epoch_40.pth
