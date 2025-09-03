@@ -1,7 +1,8 @@
 # Installation
 Install mmdetection3d and make sure it reproduces the pointpillar algorithm correctly!(https://github.com/open-mmlab/mmdetection3d/tree/main)
 
-# clone the code and download pretrain model from https://pan.baidu.com/s/1Yf6Qrm_TCfs9tYzEoC4JbA?pwd=fat2
+# clone the code and download pretrain model from 
+https://pan.baidu.com/s/1Yf6Qrm_TCfs9tYzEoC4JbA?pwd=fat2
 
 # Train
 python tools/train.py configs/second/second_hv_secfpn_8xb6-80e_kitti-3d-3class_multivoxel.py
